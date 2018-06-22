@@ -1,0 +1,192 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5975113B-01DE-4E93-8156-6D1B3C038610}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TP07_EX01.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX02.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX03.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX03_VERSION2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX04.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX04_VERSION2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX04_VERSION3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX05.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX06.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX07.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX08_VERSION1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_EX08_VERSION2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_ALL_EX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TP07_ALL_EX_UNIT.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TP07_EX01">
+        <MSBuild Projects="TP07_EX01.dproj"/>
+    </Target>
+    <Target Name="TP07_EX01:Clean">
+        <MSBuild Projects="TP07_EX01.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX01:Make">
+        <MSBuild Projects="TP07_EX01.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX02">
+        <MSBuild Projects="TP07_EX02.dproj"/>
+    </Target>
+    <Target Name="TP07_EX02:Clean">
+        <MSBuild Projects="TP07_EX02.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX02:Make">
+        <MSBuild Projects="TP07_EX02.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX03">
+        <MSBuild Projects="TP07_EX03.dproj"/>
+    </Target>
+    <Target Name="TP07_EX03:Clean">
+        <MSBuild Projects="TP07_EX03.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX03:Make">
+        <MSBuild Projects="TP07_EX03.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX03_VERSION2">
+        <MSBuild Projects="TP07_EX03_VERSION2.dproj"/>
+    </Target>
+    <Target Name="TP07_EX03_VERSION2:Clean">
+        <MSBuild Projects="TP07_EX03_VERSION2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX03_VERSION2:Make">
+        <MSBuild Projects="TP07_EX03_VERSION2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX04">
+        <MSBuild Projects="TP07_EX04.dproj"/>
+    </Target>
+    <Target Name="TP07_EX04:Clean">
+        <MSBuild Projects="TP07_EX04.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX04:Make">
+        <MSBuild Projects="TP07_EX04.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX04_VERSION2">
+        <MSBuild Projects="TP07_EX04_VERSION2.dproj"/>
+    </Target>
+    <Target Name="TP07_EX04_VERSION2:Clean">
+        <MSBuild Projects="TP07_EX04_VERSION2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX04_VERSION2:Make">
+        <MSBuild Projects="TP07_EX04_VERSION2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX04_VERSION3">
+        <MSBuild Projects="TP07_EX04_VERSION3.dproj"/>
+    </Target>
+    <Target Name="TP07_EX04_VERSION3:Clean">
+        <MSBuild Projects="TP07_EX04_VERSION3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX04_VERSION3:Make">
+        <MSBuild Projects="TP07_EX04_VERSION3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX05">
+        <MSBuild Projects="TP07_EX05.dproj"/>
+    </Target>
+    <Target Name="TP07_EX05:Clean">
+        <MSBuild Projects="TP07_EX05.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX05:Make">
+        <MSBuild Projects="TP07_EX05.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX06">
+        <MSBuild Projects="TP07_EX06.dproj"/>
+    </Target>
+    <Target Name="TP07_EX06:Clean">
+        <MSBuild Projects="TP07_EX06.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX06:Make">
+        <MSBuild Projects="TP07_EX06.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX07">
+        <MSBuild Projects="TP07_EX07.dproj"/>
+    </Target>
+    <Target Name="TP07_EX07:Clean">
+        <MSBuild Projects="TP07_EX07.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX07:Make">
+        <MSBuild Projects="TP07_EX07.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX08_VERSION1">
+        <MSBuild Projects="TP07_EX08_VERSION1.dproj"/>
+    </Target>
+    <Target Name="TP07_EX08_VERSION1:Clean">
+        <MSBuild Projects="TP07_EX08_VERSION1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX08_VERSION1:Make">
+        <MSBuild Projects="TP07_EX08_VERSION1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_EX08_VERSION2">
+        <MSBuild Projects="TP07_EX08_VERSION2.dproj"/>
+    </Target>
+    <Target Name="TP07_EX08_VERSION2:Clean">
+        <MSBuild Projects="TP07_EX08_VERSION2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_EX08_VERSION2:Make">
+        <MSBuild Projects="TP07_EX08_VERSION2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_ALL_EX">
+        <MSBuild Projects="TP07_ALL_EX.dproj"/>
+    </Target>
+    <Target Name="TP07_ALL_EX:Clean">
+        <MSBuild Projects="TP07_ALL_EX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_ALL_EX:Make">
+        <MSBuild Projects="TP07_ALL_EX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TP07_ALL_EX_UNIT">
+        <MSBuild Projects="TP07_ALL_EX_UNIT.dproj"/>
+    </Target>
+    <Target Name="TP07_ALL_EX_UNIT:Clean">
+        <MSBuild Projects="TP07_ALL_EX_UNIT.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TP07_ALL_EX_UNIT:Make">
+        <MSBuild Projects="TP07_ALL_EX_UNIT.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TP07_EX01;TP07_EX02;TP07_EX03;TP07_EX03_VERSION2;TP07_EX04;TP07_EX04_VERSION2;TP07_EX04_VERSION3;TP07_EX05;TP07_EX06;TP07_EX07;TP07_EX08_VERSION1;TP07_EX08_VERSION2;TP07_ALL_EX;TP07_ALL_EX_UNIT"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TP07_EX01:Clean;TP07_EX02:Clean;TP07_EX03:Clean;TP07_EX03_VERSION2:Clean;TP07_EX04:Clean;TP07_EX04_VERSION2:Clean;TP07_EX04_VERSION3:Clean;TP07_EX05:Clean;TP07_EX06:Clean;TP07_EX07:Clean;TP07_EX08_VERSION1:Clean;TP07_EX08_VERSION2:Clean;TP07_ALL_EX:Clean;TP07_ALL_EX_UNIT:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TP07_EX01:Make;TP07_EX02:Make;TP07_EX03:Make;TP07_EX03_VERSION2:Make;TP07_EX04:Make;TP07_EX04_VERSION2:Make;TP07_EX04_VERSION3:Make;TP07_EX05:Make;TP07_EX06:Make;TP07_EX07:Make;TP07_EX08_VERSION1:Make;TP07_EX08_VERSION2:Make;TP07_ALL_EX:Make;TP07_ALL_EX_UNIT:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
